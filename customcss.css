@@ -17,6 +17,51 @@
   text-align: center;
 }
 
+#missionLogo {
+  display: block;
+  margin: auto;
+  width: inherit;
+}
+
+.containt_missionLogon_container {
+
+}
+
+.mission_text_left {
+  text-align: center;
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.mission_text_left > p, .mission_text_right > p {
+  padding: 5px;
+  color: #23B1DC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 20px;
+}
+
+.mission_text_right {
+  text-align: center;
+  float: right;
+  width: 35%;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+.missionlogo_container {
+  display: block;
+  margin: auto;
+  width: 350px;
+  background-color: white;
+
+}
+
+.missionlogo_container > h2 {
+  text-align: center;
+}
+
 .carousel-inner {
 
     position: absolute;
