@@ -20,17 +20,26 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-static-top navbar-inverse">
+    <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
       <a class="navbar-brand" href="#">Lift Sesh</a>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
+         </div>
          <div class="container">
            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
             <li><a id=navBarItem href="#">About<span class="sr-only">(current)</span></a></li>
             <li><a id=navBarItem href="#">Articles</a></li>
          </div>
+       </div>
     </nav>
 
-<div class="containt_missionLogon_container">
+<div class="container_missionLogo_container">
   <div class="mission_text_left">
   <p><b>LiftSesh</b> is a place where people of all fitness levels can come and deepen their knowledge of living a healthy lifestyle. It is our mission to provide everyone with the information they need that will best suit their personal goals.</p>
   </div>
@@ -43,118 +52,108 @@
 </div>
 </div>
 
-
-<!--
-    <div class="jumbotron vertical-center">
-      <h1 id=jumboTitle>Lift Shesh! Information at your finger tips.</h1>
-    </div> -->
-
-<!-- <div id="carouselLiftSesh" class="container">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     Indicators
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-     Wrapper for slides
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <h1>Hello</h1>
-      </div>
-
-      <div class="item">
-        <h1> HELLO WORLD1</h1>
-
-      </div>
-
-      <div class="item">
-        <h1> HELLO WORLD2</h1>
-
-      </div>
-
-      <div class="item">
-          <h1> HELLO WORLD3</h1>
+<div class="container content_articles">
+  <h2>Workout Bank</h2>
+<div class="row">
+  <div class="col-md-1">
+    <div id=workout class="card" onclick="setText('1')">
+      <div class="card_container">
+        <h4><b>Chest Workout</b></h4>
       </div>
     </div>
-
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  </div>
+  <div class="col-md-1">
+    <div id=workout class="card" onclick="setText('2')">
+      <div class="card_container">
+        <h4><b>Bicep Workout</b></h4>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1">
+    <div id=workout class="card" onclick="setText('3')">
+      <div class="card_container">
+        <h4><b>Shoulder Workout</b></h4>
+      </div>
+    </div>
   </div>
 </div>
-
-<div class="card_table">
-<div class="card">
-  <div id=myBtn class="card_container">
-    <h4><b>All You Need Is 60 Days</b></h4>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card_container">
-    <h4><b>Chest Workout</b></h4>
-  </div>
-</div>
-
-<div class="card">
-  <div class="card_container">
-    <h4><b>Shoulder Workout</b></h4>
-  </div>
-</div>
-</div>
-
-
 
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">×</span>
-    <h2>All You Need Is 60 Days</h2>
-    <p>When you go to your favorite restaurant, I’m going to take a guess and say that you usually order the same thing or two every time you go. That item tastes great, so why switch it up? People are creatures of habit, but if you can break certain habits and try new things, maybe you will find something you like better. The same thing goes for lifestyle choices. I want to help you break your negative lifestyle choices and incorporate a healthy and active way of life into your daily habits. Once something is a habit you no longer feel the stress of trying to make time for it. It just becomes a natural part of your weekly routine. The idea is that all you need is 60 days for something to become a habit.
-	You can use almost anything for an example, but for simplicity purposes I will use reading a book. Step 1: find the thing in your life that you want to become a habit (reading). Step 2: Set realistic goals for your 60-day period. (I will read a book for 30minites 4 times a week). Step 3: track your results; write down when you read your book and for how long. This way you create a log over time and can physically see your progress (I read on Monday, Wednesday, Thursday, and Saturday 30 minutes each time). Step 4: Execute the plan for the next 60 days and watch that activity become your new habit and hobby. I guarantee that even half way through you will see progress and will want to increase the amount of anything you wanted to accomplish. You might even bump up the reading to an hour at a time.
-	Here is my story. I tried many years to get myself to go to the gym consistently only to fail each time. That is, until I found out about this 60 days thing. I did some research and found that after 60 days, things become a habit. So I put my knowledge to the test and it worked! Here is how I started making working out a habit with my 4 step process.
-I decided to make working out my habit, step 1 finished. After that I came up with a simple weekly schedule for when I can go to the gym. I worked part time with no set schedule so I would go when I could fit in the time. I made it a goal to attend the gym 4 times a week. I only went for maybe an hour at a single time, but I put forth the effort and committed myself to my goals, step 2 complete. I immediately started logging when I could go to the gym and for how long I attended, step 3 complete. After the first 2 weeks it became a lot easier. I was able to make time to attend the gym with ease. I got into a set workout routine, and my muscle soreness started to decrease after every workout. After the first month was complete, I could tell there were already differences that were visible in the mirror and on the weight scale, Step 4 complete. After seeing the results, I got even more invigorated and began to add another day into my routine. When the 60 days were over I realized that not only did working out become a habit, it was also now my most beloved hobby.
-</p>
+    <h3 id="modalTitle"></h3>
+    <p id="modalContent"></p>
   </div>
+</div>
+</div>
 
-</div> -->
+  <script>
 
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
+      // Get the modal
+      var modal = document.getElementById('myModal');
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+      // Get the button that opens the modal
+      var btn = document.getElementById("workout");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
+       function setText(id)  {
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
+         modal.style.display = "block";
+         document.getElementsByTagName("body")[0].style.overflow = "hidden";
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+        if(id == 1) {
+         document.getElementById("modalTitle").innerHTML  = "Chest Workout";
+         document.getElementById("modalContent").innerHTML= "1. Barbell Bench Press The barbell bench press is the most commonly known exercise. This is because it is effective and easy to learn. It also allows for the most weight to be pushed versus dumbbells because there is less stabilization involved and the tension can be focused straight to the pecs. Another great thing about it is that it is easy to spot, so you can push your limits when with a partner. Try a wider grip and closer grip to hit your chest in different ways.<br><br>2. Dumbbell Bench Press The dumbbell bench press is a great alternative to the barbell bench press. Usually you won’t be able to push as much weight, but you are able to work on your stabilizer muscles and have a wider range of motion. If you have strong stabilizer muscles in the chest, then you can control more weight. Having the wider range of motion can help work the muscle differently and give it a more complete look.<br><br>3. Incline Barbell Bench Press The incline barbell bench press is a great addition to any chest routine. This helps fill out the upper portion of the pectoralis major. When doing this, I advise that your angle is not too steep or else you will be working a lot of the front deltoids. With a slightly angled bench, you will feel tension on your upper chest. This can be done with a free barbell bench or with a smith machine. I personally prefer a smith machine for this, as it allows you to control the weight in one directed path.<br><br>4. Incline Dumbbell Bench Press Like the incline barbell bench press, this will target the pectoralis major. As with almost all dumbbell presses, your stabilizer muscles will be involved. This means slightly less weight, but a wider range of motion. Using an adjustable bench will allow you to change the angle in which you do your press. This is great because you can hit the chest in many different ways. Just be sure that it is not too steep or it will become more of a shoulder workout.<br><br>5. Decline Barbell Bench Press This one is more difficult to do unless you have proper equipment. You need a bench that declines and a smith machine. I don’t recommend free weight because it would be hard to control and difficult to get yourself in position to even do the workout (if you have a way then by all means do it). The decline bench is yet another way of hitting the chest, but from the bottom. It can give you a good scoop at the bottom of your chest if done properly. It can be hard to hit that part of your chest with other workouts which is why I love doing this.<br><br>6. Pec Deck Machine This a great overall chest workout. It is great for beginner and experienced lifters. It not only delivers a great pump to the chest, but it is balanced, controlled, and makes sure that you are going in the right direction. A dumbbell fly is great, but can be easily done with the wrong form. The machine ensures that you are doing it correctly and it puts a lot of tension on the chest.<br><br>7. Deep Dips are a great way to incorporate a body weight exercise into the routine. These are one of the few workouts that will work the lower portion of the chest. To make sure you hit the chest, make sure your feet are behind you, you have a wide grip with elbows flaring out, and you are leaning forward as much as possible. This ensures that you aren’t doing a tricep dip. Pair it with pushups for a great body weight chest workout.<br><br>8. Machine Chest Press This will work on the chest the same way as a regular bench press would. The difference is that it is more controlled which is great, especially for beginners. The control aspect of it can also benefit you by allowing a slow and controlled set. Also, since the machine forces a certain motion, it will concentrate more directly on the pecs while involving less shoulders than a free weight press would.";
+        }
+
+        if(id == 2) {
+         document.getElementById("modalTitle").innerHTML  = "Bicep Workout";
+         document.getElementById("modalContent").innerHTML=
+          "<b>Standing Dumbbell Curl:</b><br>"+
+	        "Stand up straight with a dumbbell in each hand. Keep your elbows close to your body and rotate the palms of your hands until they are facing forward. This will be your starting position. Now you will curl the dumbbell up until you reach shoulder level.  This is a very basic and standard bicep exercise that is very effective. There are a lot of different variations you can do with this exercise; but nothing beats the ole standing bicep curl." +
+          "<br><br><b>Standing Barbell Curl:</b><br>While holding the barbell, your starting position is the exact same as the standing dumbbell curl stance. Stand up straight with the barbell in your hands at arms-length. Keep your elbows close to your body and make sure your palms are facing forward. Start the curl to your body and end when you reach shoulder level. Once again, there are many different variations of this exercise but those will be covered in a separate article coming soon." +
+          "<br><br><b>Seated dumbbell curl:</b><br>Your starting position is on an adjustable bench that is about a notch or two below the top 90-degree angle. With a dumbbell in each hand with your palms facing forward begin to curl until you reach shoulder level. I prefer to do the notch or two below to really feel the bicep contraction from start to finish in each repetition."
+          "<br><br><b>Standing Bicep Cable Curl:</b><br>Stand upright with the pulley at the lowest level possible, with the bar by your thighs, and your palms facing forward. Begin to curl and contract your biceps until the bar reaches shoulder level. You can use different bars and grips to hit the biceps in different ways for optimal gains. While your training certain body parts, sometimes the body starts to hurt. With this exercise if your wrists start to hurt you can easily swap out a different bar for the curls, the simple switch can really help relieve a lot of wrist pain."
+          "<br><br><b>Standing Hammer Curl:</b><br>Start with the dumbbells in your hands with your palms facing towards your body. As you start to contract your biceps keep the stationary hold until the top of the dumbbell reaches your shoulder level. This is one of the alternative forms of standing bicep curls to help hit the bicep in different ways."
+          "<br><br><b>Machine Bicep Curls:</b><br>While free weights like dumbbells and barbells are effective to hit some of the major stabilizer muscles around the bicep; it is also nice to finish a bicep workout with isolated bicep work when your stabilizers are weak. Your starting position is seated with your arms extended grasping the bar and or handles to commence the bicep curl. Contract all the way up to shoulder level and back down."
+        }
+
+        if(id == 3) {
+         document.getElementById("modalTitle").innerHTML  = "Shoulder Workout";
+         document.getElementById("modalContent").innerHTML=
+         "<b>Military Press:</b><br>" +
+         "Proper Overhead Press form starts standing with the bar on your front shoulders and deltoids. Press the bar over your head until your elbows are locked. Don’t use your legs, keep them straight. The Overhead Press is a full body, compound exercise. Your shoulders and arms press the weight over your head while your legs, lower back and abs balance you, (works your whole core for stabilization). The Overhead Press is one of the best exercises to build strong, muscular, and healthy shoulders." +
+         "<br><br><b>Seated Dumbbell Shoulder Press:</b><br>We listed this work out specifically to “seated” dumbbell shoulder press for the sole reason that you can focus on building the shoulders up while not worrying about core and back support; that’s what the ninety-degree seat is for. Some people start with the dumbbells on their knees and kick the weight up onto your shoulders one at a time. While others put the dumbbells on the ground and power clean them onto your shoulders. Once the weight is up you then press straight into the air until your arms lock. After the lockout you decline the weight back down to a ninety-degree elbow position and repeat."+
+         "<br><br><b>Dumbbell Lateral Raise:</b><br>For the side lateral raise, grasp dumbbells in front of your thighs with your elbows slightly bent. Bend over slightly with the hips and knees bent slightly for increased stability. Go for form more than heavy weight. After the preparation is done proceed to raise your arms while maintaining slightly bent elbows. You only need to go up to ninety-degrees to obtain full range of motion. Then proceed to decline the weight to starting position, you want slow controlled movements for proper form and increased muscle gains." +
+         "<br><br><b>Straight Arm Shoulder Extensions:</b><br>The straight arm shoulder extensions are a great way to target your front deltoids on your shoulder workout. Start with the dumbbells on your front thighs with your palms facing down and bring your arm straight up until your arm is at a ninety-degree angle. You can either choose to do both arms at once or to do single arm raises. Whichever you may choose to perform remember to maintain slow and controlled movement to maintain proper form.";
+      }
     }
-}
-</script>
 
 
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+          modal.style.display = "none";
+          document.getElementsByTagName("body")[0].style.overflow = "auto";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+              document.getElementsByTagName("body")[0].style.overflow = "auto";
+          }
+      }
+
+      $('navBarItem').click(function() {
+        $('html,body').animate({
+        scrollTop: $(".row").offset().top},
+        'slow');
+});
+
+  </script>
 </body>
 
 
