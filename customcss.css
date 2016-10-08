@@ -17,31 +17,108 @@
   text-align: center;
 }
 
+#missionLogo {
+  display: block;
+  margin: auto;
+  width: inherit;
+}
+
+.container_missionLogo_container {
+  height: 600px;
+}
+
+.mission_text_left {
+  text-align: center;
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.mission_text_left > p, .mission_text_right > p {
+  padding: 5px;
+  color: #23B1DC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 20px;
+}
+
+.mission_text_right {
+  text-align: center;
+  float: right;
+  width: 35%;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+.missionlogo_container {
+  display: block;
+  margin: auto;
+  width: 350px;
+  background-color: white;
+
+}
+
+.missionlogo_container > h2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="mission_text_"] {
+      text-align: center;
+      float: none;
+      width: 100%;
+      margin: auto;
+      padding: 5px;
+    }
+
+    .container_missionLogo_container {
+      height: 884px;
+    }
+
+    .col-md-1 {
+      padding-bottom: 124px;
+    }
+}
+
+.article_container {
+  width: auto;
+  background-color: black;
+}
+
+.content_articles {
+  text-align: center;
+}
+
+.content_articles > h2 {
+  padding-bottom: 12px;
+}
+
+.row {
+  margin: auto;
+  padding-bottom: 10%;
+  padding-left: 16%;
+}
+
 .carousel-inner {
 
-    position: absolute;
+    /*position: absolute;
     bottom: 80px;
     left: 50%;
     width: 60%;
     padding-left: 0;
     margin-left: -30%;
-    text-align: center;
+    text-align: center;*/
 }
 
-.carousel-inner > .item > h1 {
 
-}
 
-.carousel-inner > .item {
-
-}
-
-#carouselLiftSesh, #myCarousel {
+/*#carouselLiftSesh, #myCarousel {
   height: 200px;
-}
+}*/
 
 .carousel-control:focus, .carousel-control:hover {
-  color: black;;
+  color: white;;
 }
 
 .carousel-control {
@@ -53,7 +130,7 @@ background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%)
 }
 
 .carousel-indicators .active {
-  background-color: green;
+  background-color: #23B1DC;
 }
 
 .carousel-indicators li {
@@ -66,11 +143,25 @@ max-height: 500px;
 
 }
 
-.card_table {
-
-  margin-left: 325px;
-
+#myCarousel {
+  background-color: black;
 }
+
+.carousel-inner>.item>img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40%;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+.col-md-1 {
+    width: inherit;
+  }
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     float: left;
@@ -95,7 +186,6 @@ max-height: 500px;
 /* Add some padding inside the card container */
 .card_container {
     padding: 2px 16px;
-
 }
 
 
@@ -106,7 +196,7 @@ max-height: 500px;
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 50px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -125,8 +215,8 @@ max-height: 500px;
     width: 80%;
 }
 
-.modal-content>h2 {
-  margin-left: 350px
+.modal-content>h3 {
+  text-align: center;
 }
 
 /* The Close Button */
